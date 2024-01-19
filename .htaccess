@@ -1,0 +1,4 @@
+# Enviar trafico HTTP a HTTPS
+RewriteEngine On
+RewriteCond %{ENV:HTTPS} !on [NC] RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://jorgebelvisi.uy/$1 [R=301,L,NE]
