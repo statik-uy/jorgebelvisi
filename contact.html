@@ -108,7 +108,7 @@
                     <p class="section-description">Disponible las 24/7</p>
                 </div>
             </div>
-
+    
             <div class="row">
                 <div class="col-md-3 col-md-push-2">
                     <div class="info">
@@ -116,12 +116,12 @@
                             <i class="fa fa-map-marker"></i>
                             <p>Zelmar Michelini 1321 escritorio 1107, entre 18 de julio y San Jose<br>Montevideo</p>
                         </div>
-
+    
                         <div>
                             <i class="fa fa-envelope"></i>
                             <p>jorgebelvisi@hotmail.com</p>
                         </div>
-
+    
                         <div>
                             <i class="fa fa-phone"></i>
                             <p>+598 99 134 836</p>
@@ -134,40 +134,37 @@
                         </div>
                     </div>
                 </div>
-
+    
                 <div class="col-md-5 col-md-push-2">
                     <div class="form">
                         <div id="sendmessage">Your message has been sent. Thank you!</div>
                         <div id="errormessage"></div>
-                        <form action="contactform/contactform.php" method="post" role="form" class="contactForm">
+                        <form action="https://formspree.io/f/xgegzrbq" method="POST" role="form" class="contactForm">
                             <div class="form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre"
-                                    data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
                                 <div class="validation"></div>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Tu correo"
-                                    data-rule="email" data-msg="Ingresa un Correo Valido" />
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Tu correo" data-rule="email" data-msg="Ingresa un Correo Valido" />
                                 <div class="validation"></div>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto"
-                                    data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres del tema" />
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres del tema" />
                                 <div class="validation"></div>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" name="message" rows="5" data-rule="required"
-                                    data-msg="Por favor escribe algo para nosotros" placeholder="Mensaje"></textarea>
+                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor escribe algo para nosotros" placeholder="Mensaje"></textarea>
                                 <div class="validation"></div>
                             </div>
                             <div class="text-center"><button type="submit">Enviar mensaje</button></div>
                         </form>
                     </div>
                 </div>
-
+    
             </div>
         </div>
     </section>
+    
 
 
 
