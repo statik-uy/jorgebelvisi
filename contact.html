@@ -27,7 +27,9 @@
     <link href="favicon.ico" rel="shortcut icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
+        rel="stylesheet">
 
     <!-- Bootstrap CSS File -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -39,8 +41,19 @@
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10953930330"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-   
+        gtag('config', 'AW-10953930330');
+    </script>
+
+
+
+
 
 
 
@@ -96,7 +109,8 @@
                             <p>+598 99 134 836</p>
                         </div>
                         <div>
-                            <a href="https://api.whatsapp.com/send?phone=59899134836&text=Hola,%20quisiera%20hacer%20una%20consulta" target="_blank">
+                            <a href="https://api.whatsapp.com/send?phone=59899134836&text=Hola,%20quisiera%20hacer%20una%20consulta"
+                                target="_blank">
                                 <img src="img/logoW.png" width="50" height="50"> Mensaje a Whatsapp
                             </a>
                         </div>
@@ -109,19 +123,23 @@
                         <div id="errormessage"></div>
                         <form action="contactform/contactform.php" method="post" role="form" class="contactForm">
                             <div class="form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre"
+                                    data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
                                 <div class="validation"></div>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Tu correo" data-rule="email" data-msg="Ingresa un Correo Valido" />
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Tu correo"
+                                    data-rule="email" data-msg="Ingresa un Correo Valido" />
                                 <div class="validation"></div>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres del tema" />
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto"
+                                    data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres del tema" />
                                 <div class="validation"></div>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor escribe algo para nosotros" placeholder="Mensaje"></textarea>
+                                <textarea class="form-control" name="message" rows="5" data-rule="required"
+                                    data-msg="Por favor escribe algo para nosotros" placeholder="Mensaje"></textarea>
                                 <div class="validation"></div>
                             </div>
                             <div class="text-center"><button type="submit">Enviar mensaje</button></div>
@@ -136,7 +154,8 @@
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <a href="https://api.whatsapp.com/send?phone=59899134836&text=Hola,%20quisiera%20hacer%20una%20consulta" class="float" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=59899134836&text=Hola,%20quisiera%20hacer%20una%20consulta"
+        class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
 
     </a>
