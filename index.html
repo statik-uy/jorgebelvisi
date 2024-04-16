@@ -65,6 +65,28 @@
     gtag('config', 'AW-10953930330');
   </script>
 
+
+<!-- Event snippet for Contacto Jorge conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-10953930330/omohCJq5p6cZENrsnuco',
+        'event_callback': callback
+    });
+    return false;
+  }
+  </script>
+  
+
+
+
+
   <title></title>
   <link href="chrome-extension://nffaoalbilbmmfgbnbgppjihopabppdk/inject.css" rel="stylesheet" type="text/css" />
 </head>
