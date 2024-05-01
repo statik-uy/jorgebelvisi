@@ -175,7 +175,8 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                                 <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor escribe algo para nosotros" placeholder="Mensaje"></textarea>
                                 <div class="validation"></div>
                             </div>
-                            <div class="text-center"><button type="submit">Enviar mensaje</button></div>
+                            <div class="text-center"><button type="submit" onclick="return gtag_report_conversion('https://formspree.io/thanks?language=es')">Enviar mensaje</button>
+                            </div>
                         </form>
                     </div>
                 </div>
