@@ -3,33 +3,14 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Jorge Belvisi</title>
+    <title>Jorge Belvisi - Contacto</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="Jorge Belvisi, abogado especialista en Violencia Doméstica" name="description">
     <link rel="icon" href="./img/logo.png">
 
-    <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
-    <meta property="og:title" content="">
-    <meta property="og:image" content="">
-    <meta property="og:url" content="">
-    <meta property="og:site_name" content="">
-    <meta property="og:description" content="">
-
-    <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="">
-    <meta name="twitter:title" content="">
-    <meta name="twitter:description" content="">
-    <meta name="twitter:image" content="">
-
-    <!-- Place your favicon.ico and apple-touch-icon.png in the template root directory -->
-    <link href="favicon.ico" rel="shortcut icon">
-
     <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600|Montserrat:200,300,400" rel="stylesheet">
 
     <!-- Bootstrap CSS File -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -40,6 +21,10 @@
 
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/helpers.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10953930330"></script>
@@ -47,7 +32,6 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'AW-10953930330');
     </script>
 
@@ -68,63 +52,38 @@
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-TZV3R8V');
     </script>
-    <!-- End Google Tag Manager -->
-
-
-    <!-- Event snippet for Contacto Jorge conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-    <script>
-        function gtag_report_conversion(url) {
-            var callback = function () {
-                if (typeof (url) != 'undefined') {
-                    window.location = url;
-                }
-            };
-            gtag('event', 'conversion', {
-                'send_to': 'AW-10953930330/omohCJq5p6cZENrsnuco',
-                'event_callback': callback
-            });
-            return false;
-        }
-    </script>
-
-
-
 </head>
-<header id="header">
-    <div class="container">
-        <div id="logo" class="pull-left">
-            <a href="index.html"><img src="img/logo.png" alt="" title="" /></img>
-            </a>
-            <!-- Descomenta abajo si prefieres usar una imagen de texto -->
-            <!--<h1><a href="#hero">Encabezado 1</a></h1>-->
-        </div>
-
-        <nav id="nav-menu-container">
-            <ul class="nav-menu">
-                <li class="menu-active"><a href="index.html">Inicio</a></li>
-                <li><a href="index.html">Sobre nosotros</a></li>
-                <li><a href="index.html">Servicio</a></li>
-
-                <li><a href="contact.html">Contacto</a></li>
-            </ul>
-        </nav>
-        <!-- #nav-menu-container -->
-    </div>
-</header>
 
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZV3R8V" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
+    <header id="header">
+        <div class="container">
+            <div id="logo" class="pull-left">
+                <a href="index.html"><img src="img/logo.png" alt="Inicio" /></a>
+            </div>
+
+            <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                    <li class="menu-active"><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html#section-about">Sobre nosotros</a></li>
+                    <li><a href="index.html#section-services">Servicios</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
     <section id="contact">
         <div class="container wow fadeInUp">
             <div class="row">
                 <div class="col-md-12">
                     <h3 class="section-title">Contáctenos</h3>
                     <div class="section-title-divider"></div>
-                    <p class="section-description">Disponible las 24/7</p>
+                    <p class="section-description">Estamos disponibles 24/7 para asistirte</p>
                 </div>
             </div>
 
@@ -146,59 +105,71 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                             <p>+598 99 134 836</p>
                         </div>
                         <div>
-                            <a href="https://api.whatsapp.com/send?phone=59899134836&text=Hola,%20quisiera%20hacer%20una%20consulta"
-                                target="_blank">
+                            <a href="https://api.whatsapp.com/send?phone=59899134836&text=Hola,%20quisiera%20hacer%20una%20consulta" target="_blank">
                                 <img src="img/logoW.png" width="50" height="50"> Mensaje a Whatsapp
                             </a>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-md-5 col-md-push-2">
-                    <div class="form">
-                        <div id="sendmessage">Your message has been sent. Thank you!</div>
-                        <div id="errormessage"></div>
-                        <form action="https://formspree.io/f/xgegzrbq" method="POST" role="form" class="contactForm">
-                            <div class="form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre"
-                                    data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
-                                <div class="validation"></div>
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Tu correo"
-                                    data-rule="email" data-msg="Ingresa un Correo Valido" />
-                                <div class="validation"></div>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto"
-                                    data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres del tema" />
-                                <div class="validation"></div>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" name="message" rows="5" data-rule="required"
-                                    data-msg="Por favor escribe algo para nosotros" placeholder="Mensaje"></textarea>
-                                <div class="validation"></div>
-                            </div>
-                            <div class="text-center"><button type="submit">Enviar mensaje</button></div>
-                    </div>
+            <div class="col-md-5 col-md-push-2">
+                <div class="form">
+                    <div id="sendmessage">Your message has been sent. Thank you!</div>
+                    <div id="errormessage"></div>
+                    <form action="https://formspree.io/f/xgegzrbq" method="POST" role="form" class="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre"
+                                data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Tu correo"
+                                data-rule="email" data-msg="Ingresa un Correo Valido" />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto"
+                                data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres del tema" />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" data-rule="required"
+                                data-msg="Por favor escribe algo para nosotros" placeholder="Mensaje"></textarea>
+                            <div class="validation"></div>
+                        </div>
+                        <div class="text-center"><button type="submit">Enviar mensaje</button></div>
                     </form>
                 </div>
             </div>
-
         </div>
-        </div>
-    </section>
+    </div>
+</section>
 
+<a href="https://api.whatsapp.com/send?phone=59899134836&text=Hola,%20quisiera%20hacer%20una%20consulta"
+    class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+</a>
 
+<!-- Linking Bootstrap, jQuery, and other necessary scripts -->
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/superfish/hoverIntent.js"></script>
+<script src="lib/superfish/superfish.min.js"></script>
 
+<!-- Contact Form JavaScript File -->
+<script src="contactform/contactform.js"></script>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <a href="https://api.whatsapp.com/send?phone=59899134836&text=Hola,%20quisiera%20hacer%20una%20consulta"
-        class="float" target="_blank">
-        <i class="fa fa-whatsapp my-float"></i>
-
-    </a>
-
+<!-- Template Main Javascript File -->
+<script src="js/main.js"></script>
 </body>
 
 </html>
+
+
+
+                    
